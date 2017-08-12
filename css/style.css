@@ -10,7 +10,15 @@
     padding: 2%;
 }
 
-#game {
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
     font-family: 'Nobile', sans-serif;
     text-align: center;
     font-size: 24px;
