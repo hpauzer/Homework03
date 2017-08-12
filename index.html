@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+
+    <title>Psychic Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="assets/javascript/psychic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet">
+
+
+</head>
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-8"></div>
+        <div class="jumbotron">
+            <h1>Psychic Game</h1>
+            <h2>Guess what letter I'm thinking of!</h2>
+        </div>
+    </div>
+</div>
+
+<body>
+    <div id="game">
+        <div class="row">
+            <p>Type a letter to start playing!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <section class="panel-guesses">
+                    <div class="panel panel-default ">
+                        <div class="panel-heading ">
+                            <h3 class="panel-title ">Guesses Left:</h3>
+                            <br/>
+                        </div>
+                        <div class="panel-body">
+                            <div ide="guesses" />
+
+                        </div>
+                        <br/>
+                    </div>
+                </section>
+            </div>
+
+            <div class="row">
+                <div class="col-8 col-sm-6">
+                    <section class="panel-win">
+                        <div class=" panel panel-default ">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Wins:</h3>
+                                <br/>
+                            </div>
+                            <div class="panel-body">
+                                <div id="wins" />
+                                <br/>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-4 col-sm-6">
+                    <section class="panel-loss">
+                        <div class="panel panel-default ">
+                            <div class="panel-heading ">
+                                <h3 class="panel-title ">Losses:</h3>
+                                <br/>
+                            </div>
+                            <div class="panel-body">
+                                <div id="losses" />
+                            </div>
+                            <br/>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!--//container-->
+
+</html>

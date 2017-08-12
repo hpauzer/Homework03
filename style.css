@@ -1,0 +1,64 @@
+.container.fluid {
+    max-width: 980px;
+}
+
+.jumbotron {
+    background: grey;
+    color: white;
+    font-family: 'Nobile', sans-serif;
+    text-align: center;
+    padding: 2%;
+}
+
+#game {
+    font-family: 'Nobile', sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+.panel-win {
+    font-family: 'Nobile', sans-serif;
+    /*position: relative;
+    float: left;
+    width: 200px;
+    margin: 70px;
+    margin-left: 120px;
+    padding: 10px; */
+    border-style: outset;
+    border-color: grey;
+    text-align: center;
+}
+
+.panel-loss {
+    font-family: 'Nobile', sans-serif;
+    /*    position: relative;
+    float: right;
+    width: 200px;
+    margin: 70px;
+    margin-right: 120px;
+    padding: 10px;*/
+    border-style: outset;
+    border-color: grey;
+    text-align: center;
+}
+
+.panel-title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.panel-guesses {
+    font-family: 'Nobile', sans-serif;
+    /* width: 200px;
+    margin: 70px;
+    margin-right: 120px;
+    padding: 10px; */
+    border-style: outset;
+    border-color: grey;
+    text-align: center;
+}
+
+.panel-body {
+    text-align: center;
+    font-size: 24px;
+}
